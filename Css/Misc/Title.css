@@ -1,0 +1,38 @@
+Top-Title  {
+    color         : var(--txt-color)  ;
+    font-family   : 'Space Mono'      ;
+    font-size     : 3rem        ;
+    text-align    : center      ;
+    margin        : auto        ;
+    opacity       : 0           ;
+    width         : min-content ;
+    z-index       : 99          ;
+    transform: rotateZ(+220deg) translateY(-200px) translateX(-200px);
+    animation: Animation var(--anim-show) 100ms ease-in forwards;
+}
+
+Bot-Title {
+    color         : var(--txt-color)  ;
+    font-family   : 'Space Mono'      ;
+    font-size     : 2.5rem      ;
+    opacity       : 0           ;
+    text-align: center;
+    margin:auto;
+    width: min-content;
+    padding-right: 150px;
+
+    transform: rotateZ(+220deg) translateY(-200px) translateX(-200px);
+
+    animation: Animation calc(var(--anim-show) + 100ms) 260ms ease-in forwards;
+    z-index: 100;
+}
+
+@keyframes Animation {
+to {
+    opacity: 1;
+    transform: rotateZ(0deg);
+    transform: translateY(0);
+
+    transform: translateX(0);
+    }
+}

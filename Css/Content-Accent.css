@@ -1,0 +1,76 @@
+.Accent-Line {
+    margin-top      :  2px  ;
+    margin-bottom   :  2px  ;
+    margin-left     :  -2px ;
+    margin-right    :  -2px ;
+
+    background-color : var(--sec-color) ;
+
+    height          : 3px         ;
+    border-radius   : 30% / 30%   ;
+    opacity         : 0           ;
+    width           : auto        ;
+    animation: show var(--anim-show) ease-in forwards, Colorize calc(var(--standard-anim) - 180ms) var(--anim-show) ease-in forwards;
+}
+@keyframes show {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Colorize {
+    to{
+        background-color: var(--thr-color);
+    }
+}
+
+.Top-Shape, .Bot-Shape {
+    background-color: var(--thr-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    margin: auto;
+
+    width: 95%;
+
+    --min-fill: 130px;
+
+}
+
+.Fixed-Space {
+    background : var(--main-color)  ;
+    width      : var(--min-fill)    ;
+}
+
+
+.Max-Space {
+    background : var(--main-color) ;
+    width      : 100%              ;
+}
+
+.Top-Shape > .Shape {
+    background: var(--main-color);
+    width: calc(var(--min-fill) * 4);
+    animation: Top var(--standard-anim) calc(230ms + var(--anim-show)) ease forwards;
+}
+
+.Bot-Shape > .Shape {
+    background: var(--main-color);
+    width: calc(var(--min-fill) * 4);
+    animation: Bottom var(--standard-anim) calc(230ms + var(--anim-show)) ease forwards;
+}
+
+
+@keyframes Top {
+    to{
+        border-bottom-right-radius: 55%;
+    }
+}
+
+
+@keyframes Bottom {
+    to{
+        border-top-left-radius: 55%;
+    }
+}

@@ -1,0 +1,51 @@
+.Content-Wrapper {
+    display         : flex   ;
+    flex-direction  : column ;
+    justify-content : center ;
+    align-self      : center ;
+    opacity         : 0      ;
+    width           : 0%     ;
+    max-width       : 90%    ;
+    animation: ContentAnim 600ms ease-in forwards;
+}
+
+@keyframes ContentAnim {
+    to {
+        opacity : 1    ;
+        width   : 100% ;
+    }
+}
+
+
+.Content-Top{
+    opacity             :  0                 ;
+    height              :  30px              ;
+    background-color    :  var(--sec-color)  ;
+
+    animation: AnimTop var(--anim-show) ease-in forwards ;
+}
+
+.Content-Bot{
+    opacity             :  0                 ;
+    height              :  30px              ;
+    background-color    :  var(--sec-color)  ;
+
+    animation: AnimBot var(--anim-show) ease-in forwards ;
+}
+
+
+@keyframes AnimTop {
+    to{
+        opacity : 1     ;
+        width   : auto  ;
+        border-radius: 30% 20% 0% 0% / 60% 20% 0% 0%;
+    }
+}
+
+@keyframes AnimBot {
+    to{
+        opacity : 1     ;
+        width   : auto  ;
+        border-radius: 0% 0% 30% 20% / 0% 0% 60% 20%;
+    }
+}

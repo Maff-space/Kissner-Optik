@@ -1,0 +1,27 @@
+.tooltip {
+    position:relative;
+  }
+.tooltip:before {
+    content: "Click to view image in another tab";
+    position:absolute;
+    
+    top:155px;
+    
+    margin-left:7px;
+    
+    width:180px;
+    padding:3px;
+    border-radius:10px;
+    background-color: var(--sec-color-bright);
+    border: 1px solid var(--txt-color);
+    text-align:center;
+  
+    opacity: 0;
+    transition: all 0.35s ease-in-out;
+    pointer-events: none;
+    z-index: 9;
+  }
+
+  .tooltip:hover:before {
+    opacity: 1;
+  }

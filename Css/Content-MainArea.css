@@ -1,0 +1,7 @@
+.MainArea {
+    background-color: var(--sec-color);
+    display         : flex   ;
+    flex-direction  : column ;
+    align-items     : center ;
+    padding         : 40px   ;
+}
