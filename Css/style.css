@@ -4,6 +4,16 @@ body {
   background-color: #ffffff;
 }
 
+a:link {
+  background-color: #12908E;
+}
+
+a:visited {
+  background-color: #97CECC;
+}
+
+
+
 .layout_margin {
   margin: 90px 0;
 }
