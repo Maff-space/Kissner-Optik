@@ -1,10 +1,13 @@
 :root {
     --main-color : #1f2129 ;
     --sec-color  : #282a36 ;
-    --thr-color  : #7982ff ;
+    --thr-color  : #12908E ;
+    
+    --qty-color  : #F98F45 ;
 
     --sec-color-bright: #35384a ;
-
+    --thr-color-bright  : #97CECC ;
+    
     --anim-show     : 400ms;
     --standard-anim : 1000ms;
 
