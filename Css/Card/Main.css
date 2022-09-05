@@ -23,6 +23,12 @@
     border-radius: 18px;
 }
 
+.card > img2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 18px;
+}
+
 .card > .txt {
     padding-left: 10px;
     padding-top: 5px;
