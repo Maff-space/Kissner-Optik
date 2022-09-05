@@ -22,7 +22,19 @@
     width: 200px;
     border-radius: 18px;
 }
+.card2 {
+    height        : 400px ;
+    min-width: 400px;
+    max-width: 750px;
+    border-radius :  15px ;
+    padding: 10px;
+    transition : all 0.15s ease-in-out;
 
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
 .card > img2 {
     height: 600px;
     width: 600px;
