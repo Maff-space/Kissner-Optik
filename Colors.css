@@ -1,5 +1,5 @@
 :root {
-    --main-color : #1f2129 ;
+    --main-color : #97CECC ;
     --sec-color  : #282a36 ;
     --thr-color  : #12908E ;
     
@@ -12,6 +12,9 @@
     --standard-anim : 1000ms;
 
     --txt-color: rgb(196, 246, 255);
+    
+    --txt-color-2: rgb(77, 26, 10);
     --base-font: Ubuntu Mono;
 
 }
+ /* #1f2129  dark background
