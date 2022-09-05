@@ -1,5 +1,5 @@
 Top-Title  {
-    color         : var(--txt-color-2)  ;
+    color         : var(--txt-color)  ;
     font-family   : 'Rigteous-regular'      ;
     font-size     : 3rem        ;
     text-align    : center      ;
@@ -29,7 +29,7 @@ Bot-Title {
 
 @keyframes Animation {
 to {
-    opacity: 1;
+    opacity: 1;8
     transform: rotateZ(0deg);
     transform: translateY(0);
 
