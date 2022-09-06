@@ -10,11 +10,13 @@
 }
 
 html {
-    background-color    : var(--main-color) ;
-    color       : var(--txt-color) ;
-    font-family   : 'Quicksand'      ;
+    background-color : var(--main-color) ;
+    color       	 : var(--txt-color)  ;
+    font-family   	 : 'Quicksand'       ;
 }
 body {
     display         : flex   ;
     flex-direction  : column ;
+	align-items 	: center ;
+	margin			: auto   ;
 }
