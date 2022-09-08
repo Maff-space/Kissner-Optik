@@ -1,0 +1,34 @@
+.card {
+    height        : 200px ;
+    min-width	  : 200px ;
+    max-width	  : 550px ;
+    border-radius : 15px  ;
+    padding		  : 10px  ;
+	
+    display		    : flex			;
+    flex-direction  : row			;
+    justify-content : space-between	;
+	
+    transition : all 0.15s ease-in-out;
+}
+.card:hover {
+    background-color: var(--sec-color-bright);
+    cursor: pointer;
+}
+
+
+.card > img {
+    min-height	: 200px ;
+    min-width	: 200px ;
+    
+    height		: 200px ;
+    width		: 200px ;
+	
+	border-radius : 18px ;
+}
+
+.card > .txt {
+    padding-left	: 10px	;
+    padding-top		: 5px	;
+    padding-bottom	: 5px	;
+}

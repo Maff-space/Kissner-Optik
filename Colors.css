@@ -4,17 +4,17 @@
     --thr-color  : #12908E ;
     
     --qty-color  : #F98F45 ;
-
-    --sec-color-bright: #35384a ;
+	
+    --sec-color-bright	: #35384a ;
     --thr-color-bright  : #97CECC ;
     
     --anim-show     : 400ms;
     --standard-anim : 1000ms;
-
-    --txt-color: rgb(196, 246, 255);
+	
+	--txt-color: rgb(196, 246, 255);
     
     --txt-color-2: rgb(100, 86, 40);
     --base-font: Ubuntu Mono;
-
+	
 }
  /* #1f2129  dark background

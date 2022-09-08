@@ -7,8 +7,13 @@
 }
 
 .credits > a { 
-    color           : salmon;
+    color           : salmon  ;
     text-decoration : none    ;
     font-size       : 1.2rem  ;
     padding-top     : 10px    ;
+	text-shadow : 0px 0px 5px salmon;
+}
+
+.credits > a:hover {
+	text-shadow : 0px 0px 10px salmon;
 }

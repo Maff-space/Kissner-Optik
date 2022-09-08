@@ -1,0 +1,26 @@
+.link {
+	color : var(--thr-color);
+	transition: all 0.3s ease-in-out;
+	text-shadow: 0px 0px 5px var(--thr-color);
+}
+
+.link:hover {
+	text-shadow: 0px 0px 15px var(--thr-color);
+}
+
+
+.round-link {
+	border-radius: 100px;
+	
+	padding	: 1px	  ;
+	z-index	: -1	  ;
+	cursor	: pointer ;
+	margin	: 6px	  ;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.round-link:hover {
+	box-shadow: 0px 0px 10px 3px var(--thr-color);
+	background: var(--thr-color);
+}

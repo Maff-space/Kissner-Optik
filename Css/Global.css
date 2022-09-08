@@ -9,6 +9,10 @@
     color : black;
 }
 
+a {
+	text-decoration : none;
+}
+
 html {
     background-color : var(--main-color) ;
     color       	 : var(--txt-color)  ;
